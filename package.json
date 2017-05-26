@@ -1,0 +1,13 @@
+{
+  "name": "render",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Yann Carlen",
+  "license": "MIT",
+  "scripts": {
+    "start": "browser-sync start --server src --files \"src/**/*.css, src/**/*.js, src/**/*.html\""
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12"
+  }
+}
